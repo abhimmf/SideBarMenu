@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     var sideMenuOpen = false
     override func viewDidLoad() {
         super.viewDidLoad()
+        //hi sakshi
         NotificationCenter.default.addObserver(self, selector: #selector(toggleSideMenu), name: NSNotification.Name("Toggle"), object: nil)
       
         //add swipe gestures
